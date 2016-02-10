@@ -145,6 +145,13 @@ ul {
   ul li {
     padding: 5px 0; }
 
+footer {
+  text-align: center; }
+  footer p,
+  footer a,
+  footer a:visited {
+    color: white; }
+
 .main-header .main-title {
   margin: 2rem; }
   .main-header .main-title h1 {
