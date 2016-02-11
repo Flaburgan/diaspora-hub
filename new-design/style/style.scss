@@ -65,3 +65,22 @@ footer {
     color: white;
   }
 }
+
+table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+
+  th:first-child {
+    text-align: left;
+  }
+
+  td,
+  th {
+    padding: 5px;
+  }
+
+  tbody tr:nth-child(odd) {
+    background-color: #eee;
+  }
+}

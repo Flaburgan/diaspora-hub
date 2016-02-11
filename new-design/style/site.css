@@ -152,6 +152,18 @@ footer {
   footer a:visited {
     color: white; }
 
+table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse; }
+  table th:first-child {
+    text-align: left; }
+  table td,
+  table th {
+    padding: 5px; }
+  table tbody tr:nth-child(odd) {
+    background-color: #eee; }
+
 .main-header .main-title {
   margin: 2rem; }
   .main-header .main-title h1 {
